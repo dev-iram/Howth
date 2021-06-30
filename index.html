@@ -1,0 +1,373 @@
+<!-- DATE: 3RD FEBRUARY 2020
+VERSION ONE  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- TITLE OF THE PAGE -->
+<title>Home | Howth</title>
+<!-- HOWTH.IE FAVICON -->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<!-- WEBPAGE LAYOUT WIDTH AND SCALING -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- BOOTSTRAP -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- STYLESHEETCSS -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!-- SOCIAL MEDIA ICONS -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- MONTSERRAT FONT -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<!-- BODY OF THE WEBSITE -->
+<body>
+<!-- WEBSITE HEADER -->
+<div class="header">
+<!-- WEBSITE LOGO -->
+<div class="logo">
+<!-- HOWTH.IE LOGO - CLICKING IMAGE BRINGS TO HOMEPAGE -->
+<h1><a href="index.html"><img src="images/titles/howthlogo.png" alt=""/</a></h1>
+</div>
+<!-- NAVIGATION BAR -->
+<div class="top-nav">
+<span class="menu"><img src="images/menu.png" alt=""/></span>
+<!-- NAVIGATION LIST - VARIOUS PAGES ON THE WEBSITE -->
+<ul>
+  <li><a href="about.html">ABOUT</a></li>      
+  <li><a href="contact.html">CONTACT</a></li>    
+  <!-- <li><a class="active" href="contact.html">CONTACT</a></li> -->
+  <li><a href="tourism.html">TOURISM</a></li>
+  <li><a href="attractions.html">ATTRACTIONS</a></li>
+</ul>
+<!-- MENU SCRIPT -->
+	<script>					
+	$("span.menu").click(function(){
+	$(".top-nav ul").slideToggle("slow" , function(){});});
+	</script>
+	</div>
+	<div class="clearfix"> </div>
+	</div>	
+<!-- /END OF NAVIGATION BAR-->
+
+<!--HOMEPAGE IMAGE BANNER-->
+<div class="container2">
+  <div id="slideshow">
+  <div class="elemnt"></div>
+  <div class="elemnt1"></div>
+  <div class="elemnt2"></div>
+  <div class="elemnt3"></div>
+  </div>
+</div>
+<!-- SPACING -->
+<BR>
+<BR>
+<BR>
+
+<!-- WEBSITE BANNER - THIS IS HOWTH SECTION WITH VIDEO -->
+<section class="banner-area">
+  <div class="container">
+  <div class="row fullscreen align-items-center justify-content-between">
+  <div class="col-lg-6 col-md-6 banner-left">
+    <h6>This is..</h6>
+    <h1><img src="images/titles/howth-title.png"></h1>
+      <p>
+        A picturesque village clustered around and above a busy sailing and fishing port on the north coast of the rugged peninsula, which forms the northern side of Dublin Bay on Ireland's East Coast.
+        </p>
+        <!-- SPACING -->
+        <br>
+        <!-- BUTTON REDIRECTS TO ABOUT PAGE -->
+        <button onclick="location.href='about.html'" type="button" class="btn1">DISCOVER MORE ABOUT HOWTH</button>
+  </div>
+<div class="col-lg-6 col-md-6 banner-auto d-flex align-self-end">
+  <!-- HOMEPAGE VIDEO OF HOWTH -->
+  <video width="700" controls> <source src="videos/welcome.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+</video>
+</div>
+</div>      
+</div>
+</div>
+</section>
+<!-- SPACING -->
+</BR>
+<!-- 3 COLUMNS -->
+<div class="container2">
+<section class="panel-area">
+<div class="text-center">
+  <h6>TOP PLACES TO VISIT AROUND..</h6>
+  <h1><img src="images/titles/howth-title.png"></h1>
+</div>
+<!-- SPACING -->
+<br>
+<br>
+<!--COLUMN 1 - HOWTH CLIFF PATH -->
+<div class="col-sm-4 col-xs-12">
+<div class="panel panel-default text-center">
+<div class="panel-heading">
+  <h4>Howth Cliff Path</h4>
+</div>
+<div class="panel-body">
+  <h1><img src="images/howth-cliffwalk.jpg"></h1>
+    <p>The Howth Cliff Path Loop Walk is a moderate 6 to 10km (2 to 3 hrs) loop walk taking in some easy road walking, rugged but superb cliff walking and great scenery.
+    </p>
+</div>
+<!-- BUTTON REDIRECTS TO TRIPADVISOR -->
+  <button onclick="location.href='https://www.tripadvisor.ie/Attraction_Review-g212088-d3582730-Reviews-Howth_Coastal_Walk-Howth_County_Dublin.html'" type="button" class="btn1">FIND OUT MORE</button>
+</div>
+</div>    
+
+<!--COLUMN 2 - HOWTH LIGHTHOUSE -->
+<div class="col-sm-4 col-xs-12">
+<div class="panel panel-default text-center">
+<div class="panel-heading">
+  <h4>Howth Lighthouse</h4>
+</div>
+<div class="panel-body">
+  <h1><img src="images/howth-lighthouse.jpg"></h1>
+    <p>The Howth Lighthouse at the end of the pier is one of the most recognizable landmarks on on a visit to the fishing and pleasure harbor of Howth on the northern end of Dublin Bay.
+    </p>
+</div>
+  <!-- BUTTON REDIRECTS TO TRIPADVISOR -->
+  <button onclick="location.href='https://www.tripadvisor.ie/Attraction_Review-g212088-d12154785-Reviews-Howth_Lighthouse-Howth_County_Dublin.html'" type="button" class="btn1">FIND OUT MORE</button>
+</div>
+</div>      
+
+<!--COLUMN 3 - HOWTH MARKET -->
+<div class="col-sm-4 col-xs-12">
+<div class="panel panel-default text-center">
+<div class="panel-heading">
+  <h4>Howth Market</h4>
+</div>
+<div class="panel-body">
+  <h1><img src="images/howth-market.jpg"></h1>
+  <p>Outdoor weekend market featuring locally made foods, organic produce, artisanal goods & souvenirs. Weekend market for local goods & foods.
+  </p>
+</div>
+  <!-- BUTTON REDIRECTS TO TRIPADVISOR -->
+  <button onclick="location.href='https://www.tripadvisor.ie/Attraction_Review-g212088-d5327245-Reviews-Howth_Market-Howth_County_Dublin.html'" type="button" class="btn1">FIND OUT MORE</button>
+</div>
+</div>  
+</div>  
+</div>   
+</div>
+</div>
+</section>
+
+<!-- ATTRACTIONS ICONS -->
+<div id="services" class="container-fluid text-center">
+  <h6>PLACES OF INTEREST AROUND..</h6>
+  <h1><img src="images/titles/howth-title.png"></h1>
+<!-- SPACING -->
+<br>
+<div class="row slideanim">
+<div class="col-sm-2">
+<!-- BAILY LIGHTHOUSE ICON -->
+  <h1><img src="images/icons/lighthouse.png"></h1>
+  <h4><b>BAILY LIGHTHOUSE</b></h4>
+  <p>The Baily Lighthouse is a lighthouse on the southeastern part of Howth Head in Dublin, Ireland. It is maintained by the Commissioners of Irish Lights.
+  <p>
+</div>
+<div class="col-sm-2">
+<!-- BRASS MONKEY ICON -->
+  <h1><img src="images/icons/fish.png"></h1>
+  <h4>BRASS MONKEY</h4>
+  <p>Quaint, harbourside eatery and bar, serving European tapas and fresh-caught fish and meat dishes.</p>
+</div>
+
+<!-- HOWTH VILLAGE ICON -->
+<div class="col-sm-2">
+  <h1><img src="images/icons/town.png"></h1>
+  <h4>HOWTH VILLAGE</h4>
+  <p>Howth is an Irish village on the Howth Peninsula, east of central Dublin.</p>
+</div>
+
+<!-- HOWTH CASTLE ICON -->
+    <div class="col-sm-2">
+      <h1><img src="images/icons/castle.png"></h1>
+      <h4>HOWTH CASTLE</h4>
+      <p>Turn the pages of history, step by step, exploring the upstairs and downstairs of Howth Castle, the intimate, private and warm hearth of history, legend and mythology. </p>
+    </div>
+
+<!-- HOWTH CLIFF PATH ICON-->
+<div class="col-sm-2">
+  <h1><img src="images/icons/path.png"></h1>
+  <h4>HOWTH CLIFF PATH</h4>
+  <p>The Howth Cliff Path Loop Walk is a moderate 6 to 10km (2 to 3 hrs) loop walk taking in some easy road walking, rugged but superb cliff walking and great scenery. </p>
+</div>
+
+<!-- HOWTH CLIFF WALK ICON -->
+<div class="col-sm-2">
+  <h1><img src="images/icons/walk.png"></h1>
+  <h4>HOWTH CLIFF WALK</h4>
+  <p>Coastal walk taken through the Green Route with amazing coastal views. Cannot be missed if visiting Howth.</p>
+</div>
+</div>
+<!-- THE SUMMIT ICON -->
+<div class="col-sm-2">
+  <h1><img src="images/icons/summit.png"></h1>
+  <h4>THE SUMMIT</h4>
+  <p>Howth Summit (171m) has excellent views across Dublin Bay right down to County Wicklow..</p>
+</div>
+
+<!-- HOWTH MARKET ICON -->
+<div class="col-sm-2">
+  <h1><img src="images/icons/market.png"></h1>
+  <h4>HOWTH MARKET</h4>
+  <p>Outdoor weekend market featuring locally made foods, organic produce, artisanal goods & souvenirs.</p>
+</div>
+
+<!-- HOWTH RAILWAY STATION ICON -->
+<div class="col-sm-2">
+  <h1><img src="images/icons/railway.png"></h1>
+  <h4>HOWTH RAILWAY STATION</h4>
+  <p>Howth DART station, is a railway station in Fingal, Ireland that serves Howth village and one side of Howth Head.</p>
+</div>
+
+<!-- IRELAND'S EYE ICON -->
+<div class="col-sm-2">
+  <h1><img src="images/icons/eye.png"></h1>
+  <h4>IRELAND'S EYE</h4>
+  <p>Ireland's Eye is a small uninhabited island off the coast of County Dublin, Ireland, situated directly north of Howth Harbour. The island is easily reached by regular tourist boats.</p>
+</div>
+
+<!-- MARTELLO TOWER ICON -->
+<div class="col-sm-2">
+  <h1><img src="images/icons/tower.png"></h1>
+  <h4>MARTELLO TOWER</h4>
+  <p>Stalwart tower & historic site housing a museum of vintage collectible radios & memorabilia.</p>
+</div>
+
+<!-- THE OAR HOUSE ICON -->
+<div class="col-sm-2">
+  <h1><img src="images/icons/pub.png"></h1>
+  <h4>THE OAR HOUSE</h4>
+  <p>Old stone fisherman's cottage venue for simply prepared fresh fish dishes on a village pierside.</p>
+</div>
+</div>
+
+<div id="services" class="container-fluid text-center">
+<!-- TRANSPORT MUSEUM HOWTH ICON -->
+<div class="col-sm-2">
+  <h1><img src="images/icons/muesum.png"></h1>
+  <h4>TRANSPORT MUSEUM HOWTH</h4>
+  <p>The museum is located in the Heritage Depot, Howth Demesne, Howth, Ireland. 60 vehicles are currently in Howth on display. The oldest items date from second half of the 19th century, the newest 1984.</p>
+</div>
+<!-- HOWTH LIGHTHOUSE ICON -->
+<div class="col-sm-2">
+  <h1><img src="images/icons/lighthouse2.png"></h1>
+  <h4>HOWTH LIGHTHOUSE</h4>
+  <p>Howth Harbour Lighthouse, built in 1817, is located at the end of Howth Harbour.</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- INTERACTIVE CONTACT FORM WITH LOCATION MARKERS -->
+<div class="container3">
+  <div class="map">
+  <iframe src= "https://www.google.com/maps/d/u/0/embed?mid=1i8ZyfacQZwFWiWZFyIHf4VMdCv7UICt8" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+</div>
+</body> 
+
+
+
+<!-- FOOTER -->
+<!-- ABOUT HOWTH SECTION -->
+<footer>
+<div class="footer">
+  <div class="container">
+    <div class="footer-grids">
+      <div class="col-md-3 footer-grid">
+        <h4>About Howth</h4>
+        <p>Howth is a picturesque village clustered around and above a busy sailing and fishing port on the north coast of the rugged peninsula, which forms the northern side of Dublin Bay on Ireland's East Coast.</span></p>
+        <h5>Get In Touch<h5>
+        <p>info@howth.ie</p>
+        <div class="social-grids">
+          <!-- SOCIAL MEDIA ICONS -->
+          <ul>
+            <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+          </ul>
+  </div>
+</div>
+
+<!-- SOCIAL TWITTER POSTS SECTION -->
+<div class="col-md-3 footer-grid">
+  <h4>Getting to Howth</h4>
+    <ul class="footer_grid_list">
+      <h5>Rail</h5>
+      <li>Howth is served by the DART.</li>
+      <h5>Buses<h5>
+      <li>31: Gardiner Street - Binn Eadair View <br> Howth Summit - Gardiner Street</li>
+      <li>31A: Gardiner Street - Sutton Castle <br> Sutton Castle - Gardiner Street </li>
+      <li> 31B: DART Station - Gardiner Street <br> Gardiner Street - Howth Summit</li>
+    </ul>
+  </div>
+
+<!-- IMAGES SECTION -->
+<div class="col-md-3 footer-grid">
+  <h4>Howth at Sea</h4>
+  <div class="popular-grids">
+    <div class="popular-grid">
+    <a href="single.html"><img src="images/footer-grid/1.jpg" alt="" /></a>
+    </div>
+    <div class="popular-grid">
+    <a href="single.html"><img src="images/footer-grid/2.jpg" alt="" /></a>
+    </div>
+    <div class="popular-grid">
+    <a href="single.html"><img src="images/footer-grid/3.jpg" alt="" /></a>
+    </div>
+    <div class="clearfix"> </div>
+    </div><
+
+    <div class="popular-grids">
+    <div class="popular-grid">
+    <a href="single.html"><img src="images/footer-grid/4.jpg" alt="" /></a>
+    </div>
+    <div class="popular-grid">
+    <a href="single.html"><img src="images/footer-grid/5.jpg" alt="" /></a>
+    </div>
+    <div class="popular-grid">
+    <a href="single.html"><img src="images/footer-grid/6.jpg" alt="" /></a>
+    </div>
+    <div class="clearfix"> </div>
+    </div>
+
+    <div class="popular-grids">
+    <div class="popular-grid">
+    <a href="single.html"><img src="images/footer-grid/7.jpg" alt="" /></a>
+    </div>
+    <div class="popular-grid">
+    <a href="single.html"><img src="images/footer-grid/8.jpg" alt="" /></a>
+    </div>
+    <div class="popular-grid">
+    <a href="single.html"><img src="images/footer-grid/9.jpg" alt="" /></a>
+    </div>
+    <div class="clearfix"> </div>
+    </div>
+  </div>
+
+<!-- NEWSLETTER SECTION -->
+<div class="col-md-3 footer-grid">
+  <h4>Newsletter</h4>
+  <p>Subscribe to our weekly newsletter for all the latest information. Stay tuned for more news about events and what's happening in and around Howth!</p>
+  <form action="#" method="post">
+  <input type="email" name="Email" placeholder="Email" required="">
+  <input type="submit" value="Subscribe">
+  </form>
+</div>
+
+<!-- CLEARFIX - THIS FIXES ELEMENTS FROM FLOATING IN CONTAINER -->
+<div class="clearfix"> </div>
+</div>
+</div>
+</div>
+<!-- BOTTOM 'COPYRIGHT' TAG -->
+<div class="howth-copyright">
+<div class="container">
+  <p>© 2020 Howth.ie | Made by Iram</p>
+</div>
+</div>
+</footer>
+</html>
